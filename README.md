@@ -1,4 +1,11 @@
 # Iris_Comparison_Lab_3
 To analyze data about Irises
 
-This project analyzes a Iris dataset using pandas to combine sepal and petal measurements into a single DataFrame and analyze the information. The program loads two CSV files, merges them using sample_id and species, and calculates correlation, mean, median, and standard deviation for petal length, petal width, sepal length, and sepal width. Grouped averages by species are used to compare similarity. Results show that Versicolor and Virginica are the most similar species based on close mean measurements, while Setosa is the least similar due to significantly smaller petal dimensions. The implementation uses pandas DataFrames, OS and built-in methods such as read_csv, merge, corr, mean, median, std, and groupby. 
+Purpose
+This project uses pandas to analyze the Iris dataset and compare three species based on their physical measurements. The goal is to understand how the measurements relate to one another and determine which species are most similar and least similar using statistical evidence.
+
+Implementation
+The program loads two CSV files containing sepal and petal measurements and merges them into one DataFrame using sample_id and species. It then calculates correlation, mean, median, and standard deviation for petal length, petal width, sepal length, and sepal width. The data is also grouped by species to compare average measurements.
+
+Results
+The analysis shows that Versicolor and Virginica are the most similar species because their average measurements are close in value. Setosa is the least similar because its petal measurements are significantly smaller than the others.
